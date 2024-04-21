@@ -66,16 +66,46 @@ public class Machine {
 
     private boolean checkInventory(Coffee coffee) {
         boolean enoughInventory = false;
-        if (this.water >= coffee.getWater()
-                && this.milk >= coffee.getMilk()
-                && this.coffeeBeans >= coffee.getCoffeeBeans()
-                && this.cups >= coffee.getCup()) {
+        boolean enoughWater = false;
+        boolean enoughMilk = false;
+        boolean enoughBeans = false;
+        boolean enoughCups = false;
+
+
+        if (this.water >= coffee.getWater()) {
+            enoughWater = true;
+        } else {
+            System.out.println("Sorry, not enough water!");
+        }
+
+        if (this.milk >= coffee.getMilk()) {
+            enoughMilk = true;
+        } else {
+            System.out.println("Sorry, not enough milk!");
+        }
+
+        if (this.coffeeBeans >= coffee.getCoffeeBeans()) {
+            enoughBeans = true;
+        } else {
+            System.out.println("Sorry, not enough coffee beans!");
+        }
+
+        if (this.cups >= coffee.getCup()) {
+            enoughCups = true;
+        } else {
+            System.out.println("Sorry, not enough cups!");
+        }
+
+        if (enoughWater && enoughMilk && enoughBeans && enoughCups) {
             enoughInventory = true;
             this.water -= coffee.getWater();
             this.milk -= coffee.getMilk();
             this.money += coffee.getPrice();
             this.coffeeBeans -= coffee.getCoffeeBeans();
             this.cups -= coffee.getCup();
+
+            System.out.println("I have enough resources, making you a coffee!");
+
         }
         return enoughInventory;
     }

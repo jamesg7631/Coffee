@@ -25,6 +25,7 @@ public class UserInterface {
     }
 
     public void commands(String command) {
+        System.out.println();
         if (command.equals("buy")) {
             buy();
         } else if (command.equals("fill")) {
@@ -36,7 +37,7 @@ public class UserInterface {
         }
     }
     public void buy() {
-        System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
+        System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:");
         String purchase = scanner.nextLine();
 
         switch (purchase){

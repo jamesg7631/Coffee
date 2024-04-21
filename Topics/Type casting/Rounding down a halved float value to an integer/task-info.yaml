@@ -1,0 +1,18 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.Scanner;\n\npublic class Main {\n\tpublic static void main(String[]\
+    \ args) {\n\t\t// Create Scanner object to read user input\n\t\tScanner scanner\
+    \ = new Scanner(System.in);\n\n\t\t// Read float value from user and assign it\
+    \ to floatVariable\n\t\tfloat floatVariable = scanner.nextFloat();\n\n\t\t// Divide\
+    \ the float variable by 2 and round down the result\n\t\t// Here you need to write\
+    \ the code to perform the division and the type cast operation\n\t\t// The result\
+    \ should be of integer type\n\n\t\t// Print the integer result\n\t\t// Here again,\
+    \ you need to write the code part\n\n\t\t// Close the Scanner\n\t\tscanner.close();\n\
+    \t}\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/42329#comment
+status: Unchecked
+record: -1
+submission_language: java17
