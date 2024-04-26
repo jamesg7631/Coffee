@@ -13,6 +13,9 @@ files:
     \t}\n}"
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/42329#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 21 Apr 2024 17:42:59 UTC"
 record: -1
 submission_language: java17

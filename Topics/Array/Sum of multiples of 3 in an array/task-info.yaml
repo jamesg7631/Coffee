@@ -1,0 +1,33 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.Scanner;
+      
+      public class Main {
+          public static void main(String[] args) {
+              // create scanner instance to read input
+              Scanner scanner = new Scanner(System.in);
+      
+              // read the number of elements
+              int n = scanner.nextInt();
+      
+              // create your array here
+      
+              // use a loop to read the array elements
+      
+              // use a loop to calculate the sum of elements that are multiples of 3
+      
+              // close the scanner
+              scanner.close();
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/43526#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 26 Apr 2024 12:22:07 UTC"
+record: -1
+submission_language: java17

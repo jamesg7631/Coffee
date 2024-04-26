@@ -1,0 +1,28 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.Scanner;
+      
+      public class Main {
+          public static void main(String[] args) {
+              Scanner scanner = new Scanner(System.in);
+              int num = scanner.nextInt();
+      
+              // function calls of isDivByThree, isDivByFive, isDivByThreeAndFive will be here
+          }
+          // function isDivByThree will be here
+      
+          // function isDivByFive will be here
+      
+          // function isDivByThreeAndFive will be here
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/44060#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 26 Apr 2024 09:51:12 UTC"
+record: -1
+submission_language: java17

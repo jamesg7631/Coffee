@@ -9,10 +9,12 @@ public class Main {
 		float floatVariable = scanner.nextFloat();
 
 		// Divide the float variable by 2 and round down the result
+		floatVariable /=2;
 		// Here you need to write the code to perform the division and the type cast operation
 		// The result should be of integer type
-
+		int intVariable = (int) floatVariable;
 		// Print the integer result
+		System.out.println(intVariable);
 		// Here again, you need to write the code part
 
 		// Close the Scanner
